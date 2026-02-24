@@ -54,6 +54,7 @@ find_package(Threads REQUIRED)
 #--------------------------------------------------------------------
 # Report backend selection
 #--------------------------------------------------------------------
+if(0)
 if (GLFW_BUILD_WIN32)
     message(STATUS "Including Win32 support")
 endif()
@@ -65,6 +66,7 @@ if (GLFW_BUILD_WAYLAND)
 endif()
 if (GLFW_BUILD_X11)
     message(STATUS "Including X11 support")
+endif()
 endif()
 
 #--------------------------------------------------------------------
